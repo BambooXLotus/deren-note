@@ -25,5 +25,6 @@ module.exports = {
         fixStyle: "inline-type-imports",
       },
     ],
+    "@next/next/no-img-element": "off",
   },
 };
