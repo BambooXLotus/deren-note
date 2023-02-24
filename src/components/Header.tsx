@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = () => {
       <div className="flex-1 pl-5 text-3xl font-light">
         {sessionData?.user?.name
           ? `deren-notes - ${sessionData.user.name}`
-          : ""}
+          : "deren-notes"}
       </div>
       <div className="flex-none gap-2">
         <div className="dropdown-end dropdown">
